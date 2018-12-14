@@ -1,0 +1,32 @@
+
+.card {
+	margin-top:3px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    border: solid 0.5px grey;
+    padding:4px;
+    width:fit-content !important;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  body{
+    font-weight: bolder;
+    font-family: monospace;
+    text-decoration: none;
+    cursor:pointer;
+    padding:5px;
+    font-size: large;
+  }
+  label {
+    color: white;
+    padding: 8px;
+  }
+  .info {background-color: #2196F3; font-weight: bolder;} /* Blue */
+  .success {background-color: #e7e7e7; color: #2196F3;} /* grey */
